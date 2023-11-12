@@ -69,6 +69,52 @@ export const NavBar = () => {
               >
                 Services & Projects
               </Nav.Link>
+                   <Nav.Link
+                href="https://promptbase.com/profile/artistrybynikhil"
+                target="_blank"
+                className={
+                  activeLink === "promptbase"
+                    ? "active navbar-link"
+                    : "navbar-link"
+                }
+                onClick={() => onUpdateActiveLink("promptbase")}
+              >
+                PromptBase
+              </Nav.Link>
+              <Nav.Link
+                href="https://artistrybynikhil.com/"
+                target="_blank"
+                className={
+                  activeLink === "artistry"
+                    ? "active navbar-link"
+                    : "navbar-link"
+                }
+                onClick={() => onUpdateActiveLink("artistry")}
+              >
+                ArtistryByNikhil
+              </Nav.Link>
+              <Nav.Link
+                href="https://www.youtube.com/channel/UCXnZm49B2aIroZzYJGUu-GQ"
+                target="_blank"
+                className={
+                  activeLink === "youtube"
+                    ? "active navbar-link"
+                    : "navbar-link"
+                }
+                onClick={() => onUpdateActiveLink("youtube")}
+              >
+                YouTube
+              </Nav.Link>
+              <Nav.Link
+                href="https://github.com/nikhillokare"
+                target="_blank"
+                className={
+                  activeLink === "github" ? "active navbar-link" : "navbar-link"
+                }
+                onClick={() => onUpdateActiveLink("github")}
+              >
+                GitHub
+              </Nav.Link>
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
