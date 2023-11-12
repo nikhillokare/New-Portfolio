@@ -96,6 +96,66 @@ export const Skills = () => {
                   <img src={meter2} alt="Image" />
                   <h5>JavaScript</h5>
                 </div>
+                  <div className="item">
+                  <img src={meter3} alt="Image" />
+                  <h5>C++</h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="Image" />
+                  <h5>SQL</h5>
+                </div>
+                <div className="item">
+                  <img src={meter2} alt="Image" />
+                  <h5>TypeScript</h5>
+                </div>
+                <div className="item">
+                  <img src={meter3} alt="Image" />
+                  <h5>Operating Systems</h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="Image" />
+                  <h5>MongoDB</h5>
+                </div>
+                <div className="item">
+                  <img src={meter2} alt="Image" />
+                  <h5>CSS</h5>
+                </div>
+                <div className="item">
+                  <img src={meter3} alt="Image" />
+                  <h5>HTML</h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="Image" />
+                  <h5>ExpressJS</h5>
+                </div>
+                <div className="item">
+                  <img src={meter2} alt="Image" />
+                  <h5>ReactJS</h5>
+                </div>
+                <div className="item">
+                  <img src={meter3} alt="Image" />
+                  <h5>NodeJS</h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="Image" />
+                  <h5>RestAPI</h5>
+                </div>
+                <div className="item">
+                  <img src={meter2} alt="Image" />
+                  <h5>Low-Level System Design</h5>
+                </div>
+                <div className="item">
+                  <img src={meter3} alt="Image" />
+                  <h5>Strong Problem-Solving Skills</h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="Image" />
+                  <h5>GitHub</h5>
+                </div>
+                <div className="item">
+                  <img src={meter2} alt="Image" />
+                  <h5>VS Code</h5>
+                </div>
               </Carousel>
             </div>
           </div>
