@@ -104,7 +104,7 @@ export const Banner = () => {
                       )
                     }
                   >
-                    Download Resume <ArrowRightCircle size={25} />
+                    Download Resume <ArrowRightCircle size={30} />
                   </button>
                 </div>
               )}
