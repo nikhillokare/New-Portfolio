@@ -78,10 +78,66 @@ select:focus {
   outline: none;
 }
 
-@media (min-width: 1700px) {
+@media (max-width: 768px) {
   main .container {
-    max-width: 100%;
-    padding: 0 150px;
+    padding: 0 15px; /* Adjust padding for smaller screens */
+  }
+
+  nav.navbar {
+    padding: 10px 0;
+  }
+
+  nav.navbar a.navbar-brand {
+    width: auto; /* Allow the brand to take up the available space */
+  }
+
+  nav.navbar .navbar-nav .nav-link.navbar-link {
+    padding: 0 10px; /* Adjust padding for smaller screens */
+    font-size: 16px; /* Decrease font size for smaller screens */
+  }
+
+  .banner {
+    padding: 120px 0 60px 0;
+  }
+
+  h1 {
+    font-size: 42px; /* Decrease font size for smaller screens */
+  }
+
+  .skill-bx {
+    padding: 40px 20px; /* Adjust padding for smaller screens */
+  }
+
+  .skill h2 {
+    font-size: 32px; /* Decrease font size for smaller screens */
+  }
+
+  .project h2 {
+    font-size: 32px; /* Decrease font size for smaller screens */
+  }
+
+  .project p {
+    width: 100%; /* Make text full width on smaller screens */
+  }
+
+  .project .nav.nav-pills {
+    width: 100%; /* Make the nav-pills full width on smaller screens */
+  }
+
+  .contact {
+    padding: 60px 0 100px 0;
+  }
+
+  .contact form button {
+    padding: 14px 20px; /* Adjust button padding for smaller screens */
+  }
+
+  .footer {
+    padding: 0 0 30px 0;
+  }
+
+  .newsletter-bx {
+    padding: 65px 20px; /* Adjust padding for smaller screens */
   }
 }
 
