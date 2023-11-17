@@ -60,7 +60,7 @@ export const Projects = () => {
       imgUrl: projImg8,
     },
     {
-      title: "Goldes GYM",
+      title: "Golds GYM",
       description: "Design & Development",
       imgUrl: projImg9,
     },
