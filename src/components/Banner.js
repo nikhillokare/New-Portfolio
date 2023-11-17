@@ -96,8 +96,15 @@ export const Banner = () => {
                     software ideas and captivating AI-generated artwork to life.
                     Contact me today to make your vision a reality!
                   </p>
-                  <button onClick={() => console.log("connect")}>
-                    Let’s Connect <ArrowRightCircle size={25} />
+                  <button
+                    onClick={() =>
+                      window.open(
+                        "https://drive.google.com/file/d/1Ae8tUEgFStQAduj-zXku0zIgIO-bFN0J/view?usp=sharing",
+                        "_blank"
+                      )
+                    }
+                  >
+                    Download Resume <ArrowRightCircle size={25} />
                   </button>
                 </div>
               )}
