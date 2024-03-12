@@ -94,7 +94,7 @@ export const NavBar = () => {
                 ArtistryByNikhil
               </Nav.Link>
               <Nav.Link
-                href="https://www.youtube.com/channel/UCXnZm49B2aIroZzYJGUu-GQ"
+                href="https://www.youtube.com/@MrNikhil11"
                 target="_blank"
                 className={
                   activeLink === "youtube"
