@@ -39,7 +39,6 @@ export const NavBar = () => {
             <span className="navbar-toggler-icon"></span>
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
-            <Navbar.Collapse id="basic-navbar-nav">
   <Nav className="ms-auto">
     <Nav.Link
       href="#home"
