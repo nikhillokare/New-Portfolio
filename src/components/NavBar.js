@@ -67,7 +67,7 @@ export const NavBar = () => {
       className={activeLink === "promptbase" ? "active navbar-link" : "navbar-link"}
       onClick={() => onUpdateActiveLink("promptbase")}
     >
-      PromptBase
+      ArtistryByNikhil
     </Nav.Link>
     <Nav.Link
       href="https://www.youtube.com/@MrNikhil11"
