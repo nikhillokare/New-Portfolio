@@ -696,3 +696,30 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.7px;
   margin-top: 20px;
 }
+.slick-slider {
+  width: 150vw; /* Set the width to 90% of the viewport width */
+  max-width: 800px; /* Set a maximum width */
+  height: 600px; /* Set a fixed height */
+  margin: 0 auto;
+  /* Center the slider horizontally and set it from the left */
+}
+
+.slick-images {
+  width: 50%; /* Set the width of the images to 100% of the slider container */
+  height: 50%; /* Set the height of the images to 100% of the slider container */
+  object-fit: contain; /* Maintain aspect ratio and fit the images within the container */
+}
+.slider-container {
+  display: flex !important;
+  display: flex;
+  align-items: center; /* Center the child elements horizontally */
+}
+.nikhil h2 {
+  font-size: 45px;
+  font-weight: 700;
+}
+.nikhil {
+  text-align: center;
+  font-weight: bold;
+  /* Center the text within the heading */
+}
