@@ -86,7 +86,7 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>
-                    Welcome to my Fiverr profile! I'm a multi-talented
+                    Welcome to my profile! I'm a multi-talented
                     professional, experienced in AI art and software
                     engineering. I create captivating digital art and develop
                     AI-powered applications, from chatbots to recommendation
