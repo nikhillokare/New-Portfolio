@@ -90,26 +90,26 @@ export const Banner = () => {
                     <span
                       className="txt-rotate"
                       dataPeriod="1000"
-                      data-rotate='[ "AI Artist","AI image Generation Expert", "Prompt Engineer","Frontend Developer", "Software Engineer","Freelancer" ]'
+                      data-rotate='[ "AI Artist", "Prompt Engineer", "Software Engineer","Freelancer" ]'
                     >
                       <span className="wrap">{text}</span>
                     </span>
                   </h1>
                   <p>
-                    Welcome to my Fiverr profile! I'm a multi-talented
-                    professional, experienced in AI art and software
-                    engineering. I create captivating digital art and develop
-                    AI-powered applications, from chatbots to recommendation
-                    systems. With a strong background in freelancing, I'm
-                    dedicated to delivering quality work on time, no matter the
-                    project size. Let's work together to bring your innovative
-                    software ideas and captivating AI-generated artwork to life.
-                    Contact me today to make your vision a reality!
+                    Welcome to my profile! I'm a multi-talented professional,
+                    experienced in AI art and software engineering. I create
+                    captivating digital art and develop AI-powered applications,
+                    from chatbots to recommendation systems. With a strong
+                    background in freelancing, I'm dedicated to delivering
+                    quality work on time, no matter the project size. Let's work
+                    together to bring your innovative software ideas and
+                    captivating AI-generated artwork to life. Contact me today
+                    to make your vision a reality!
                   </p>
                   <button
                     onClick={() =>
                       window.open(
-                        "https://drive.google.com/file/d/11kPMjMKohID5IgmF3DVIHAQl3F7K7eCk/view?usp=sharing",
+                        "https://drive.google.com/file/d/18d9XQtfJ2nrT2U3A9qHTzQ1k92w6K7J2/view?usp=sharing",
                         "_blank"
                       )
                     }

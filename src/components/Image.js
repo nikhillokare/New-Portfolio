@@ -50,7 +50,7 @@ export const Image = () => {
 
   return (
     <div>
-      <h2 className="nikhil">AI Image Generation Expert</h2>
+      <h2 className="nikhil">AI Image Prompt Generation Expert</h2>
       <Slider {...settings}>
         {images.map((image, index) => (
           <div key={index}>
