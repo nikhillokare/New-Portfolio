@@ -72,15 +72,25 @@ export const Banner = () => {
                     href="https://www.fiverr.com/nikhillokare?up_rollout=true"
                     className="tagline"
                     target="_blank"
+                    style={{ marginRight: "10px" }}
+                    rel="noreferrer"
                   >
                     Hire Me On Fiverr
+                  </a>
+                  <a
+                    href="https://www.upwork.com/freelancers/~011b0bd3c4fa9e6746"
+                    className="tagline"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Hire Me On UPwork
                   </a>
                   <h1>
                     {`Hi! I'm Nikhil`}{" "}
                     <span
                       className="txt-rotate"
                       dataPeriod="1000"
-                      data-rotate='[ "AI Artist", "Prompt Engineer", "Software Engineer","Freelancer" ]'
+                      data-rotate='[ "AI Artist","AI image Generation Expert", "Prompt Engineer","Frontend Developer", "Software Engineer","Freelancer" ]'
                     >
                       <span className="wrap">{text}</span>
                     </span>
