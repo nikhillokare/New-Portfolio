@@ -18,6 +18,8 @@ import image13 from "../assets/img/image13.png";
 import image14 from "../assets/img/image14.png";
 import image15 from "../assets/img/image15.png";
 
+import "../Image.css" // Importing the new CSS file for custom styling
+
 export const Image = () => {
   const images = [
     image1,
@@ -36,7 +38,6 @@ export const Image = () => {
     image14,
     image15,
   ];
-  // Add more imported images to the array
 
   const settings = {
     dots: true,
@@ -46,18 +47,21 @@ export const Image = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
+    pauseOnHover: true, // Pauses autoplay on hover
   };
 
   return (
-    <div>
-      <h2 className="nikhil">AI Image Prompt Generation Expert</h2>
-      <Slider {...settings}>
-        {images.map((image, index) => (
-          <div key={index}>
-            <img src={image} alt={`Slide ${index + 1}`} />
-          </div>
-        ))}
-      </Slider>
+    <div className="image-generation-section">
+      <h2 className="slider-title">AI Image Prompt Generation Expert</h2>
+      <div className="slider-wrapper">
+        <Slider {...settings}>
+          {images.map((image, index) => (
+            <div className="image-slide" key={index}>
+              <img src={image} alt={`Slide ${index + 1}`} className="slide-image" />
+            </div>
+          ))}
+        </Slider>
+      </div>
     </div>
   );
 };
